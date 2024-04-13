@@ -1,0 +1,91 @@
+@import url(./color.css);
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    height: 10rem;
+    background-color:#c065e4;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 80%;
+}
+.header-navegacao{
+    display: flex;
+}
+.header-navegacao *{
+font-size:3rem;
+margin-left: 12px;
+color: black;
+}
+.header-navegacao *:hover {
+    color:#DFF5FF;
+    transform: scale(1.05);
+}
+.header-navegacao a:nth-child(1){
+    text-decoration: underline;
+}
+main{
+    background-color: black;
+}
+.banner{
+    width: 100%;
+}
+h1{
+    color: #DFF5FF;
+    text-align: center;
+    margin: 3rem 0
+}
+.cursos__cartao{
+    width: 12rem;
+    height: 10rem;
+    background-color: rgb(228, 105, 207);
+    border-radius: 10px;
+    border: solid 2px  rgb(250, 247, 247);
+
+}
+.cursos {
+    display: flex;
+    justify-content: space-around;
+}
+.cursos__cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cursos__cartao:hover{
+    filter: brightness(80%);
+    cursor: pointer;
+    transform: scale(1.01);
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 6rem;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 45%, rgba(83,83,83,1) 68%);
+color: #DFF5FF;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-links a {
+color: #DFF5FF;
+}
+.footer-links h2{}
+    margin-bottom:2rem;
+}
